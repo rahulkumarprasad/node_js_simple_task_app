@@ -9,7 +9,7 @@ const sequelize = db.sequelize;
 const PENDING = "PENDING";
 const INPROGRESS = "INPROGRESS";
 const COMPLETED = "COMPLETED";
-const DEFAULT_PAGE_SIZE = 2;
+const DEFAULT_PAGE_SIZE = 10;
 
 app.use(express.json());
 
